@@ -1,0 +1,14 @@
+prvi_broj = int(input("Odaberi jedan broj:"))
+drugi_broj = int(input("Odaberi još jedan broj:"))
+funkcija = input("Što želiš napraviti s tim brojevima: +, -, * ili /? ->")
+
+if funkcija == "+":
+    print(prvi_broj+drugi_broj)
+elif funkcija == "-":
+    print(prvi_broj-drugi_broj)
+elif funkcija == "*":
+    print(prvi_broj*drugi_broj)
+elif funkcija == "/":
+    print(prvi_broj/drugi_broj)
+else:
+    print("Nije unešen odgovarajući znak. Molim pokušajte ponovno.")
